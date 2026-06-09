@@ -1,15 +1,6 @@
 
-import math
-import os
-import re
-import numpy as np
-import cv2
-import torch
-from PIL import Image
-from controller import Robot, Keyboard
-from transformers import AutoModelForCausalLM, AutoProcessor 
 
-print("[SYSTEM] Loading NVIDIA LocateAnything-3B model manually... Please wait.")
+from controller import Robot, Keyboard
 
 # Initialize the Robot instance
 robot = Robot()
